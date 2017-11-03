@@ -1,4 +1,5 @@
-const CREATE_URL = (path = "") => `http://localhost:4040/api/actors/${path}`;
+const CREATE_URL = (path = "") =>
+  `https://hollywood-api-mariahgrey.now.sh/api/actors/${path}`;
 
 export const getById = id => {
   return fetch(CREATE_URL(id))
@@ -39,3 +40,5 @@ export const remove = id => {
     .then(response => response.json())
     .catch(error => console.log(error));
 };
+
+// actors crud file

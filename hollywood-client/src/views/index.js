@@ -19,3 +19,4 @@ export {
   ActorDetails,
   MovieDetails
 };
+// imports and exports each page for use

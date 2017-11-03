@@ -12,7 +12,7 @@ import {
   ActorDetails,
   MovieDetails
 } from "./views";
-
+// imports files from views for use in paths.
 class Router extends Component {
   render() {
     return (
@@ -32,5 +32,5 @@ class Router extends Component {
     );
   }
 }
-
+// sets path and makes it so only one page can render at a time(switch)
 export default Router;
